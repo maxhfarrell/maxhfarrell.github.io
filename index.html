@@ -1,0 +1,394 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+	a:link, a:visited {
+		text-decoration:none;
+		color:#006699;
+	}
+	a:hover {
+		color:#990000;	
+	}
+	h1,h2,h3{
+		font-family:'Verdana','Helvetica', 'Arial', sans-serif;
+		font-weight:normal;
+		line-height: 0%;
+	}
+	code{
+		font-size:1.3em;
+	}
+	body {
+		font-family:'Verdana','Helvetica', 'Arial', sans-serif;
+/* 		font-size:10pt; */
+		font-size:0.9em;
+		text-align: left;
+		color: black;
+		margin:1em auto;
+		max-width:65em;
+		padding:0.62em;
+/*		margin-top: 30;
+		margin-right: 60;
+		margin-bottom: 50;
+		margin-left: 60;
+		min-width:500px; */
+	}
+	table {/*font-size:10.5pt;*/margin-left: 15}
+	table.slightlyBigger              { padding-bottom: .75em; margin-left: 0;/* font-size:1.2em;*/ }
+	td.indent              {padding-left:30;  }
+	li.forPapers              {padding-bottom: 1em;  /*font-size:1.1em;*/ }
+	ul              {padding-left: 2em;}
+	ul.forPapers              {padding-left: 1em; list-style-type:none}
+    dd              {margin-left: 1em;}
+	
+div.fancyPositioning div.picture-left{float:left;width:25%;overflow:hidden;margin-right:1em;margin-left:3em}
+div.fancyPositioning div.picture-left img{width:100%}
+/* div.fancyPositioning div.picture-left p.caption{font-size:.7em} */
+div.fancyPositioning div.tleft{/*font-size:1.1em;*/float:left;width:55%;margin-left:3em}
+/* div.fancyPositioning div.tleft p:first-child{margin-top:0} */
+div.fancyPositioning:after{display:block;content:"";clear:both} 
+
+
+@media screen and (max-width:500px){
+  div.fancyPositioning div.picture-left,div.fancyPositioning div.tleft {
+    float:none;width:inherit
+  }
+  div.fancyPositioning div.picture-left img{width:50%}
+	li.forPapers              {font-size:1em; }
+	
+	h1,h2{font-size:0.95em; }
+}
+</style>
+
+<title>Max H. Farrell's Home Page</title>
+
+</head>
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+	link="#000099" alink="#000099" vlink="#990099"
+>
+
+
+ 
+ 
+ 
+ 
+ 
+<div class="fancyPositioning">
+
+  <div class="picture-left">
+    <img src="MaxFarrell_Portrait.jpg">
+  </div>
+    
+  <div class="tleft">
+    <h1>Max H. Farrell</h1>
+    <p>
+      Associate Professor of Economics<br>
+      Mellichamp Chair of Mind and Machine Intelligence<br>
+      University of California, Santa Barbara
+    </p>
+    <p>
+      <a target="_self" href="MaxFarrell_CV.pdf">Curriculum Vitae (PDF)</a>
+    </p>
+
+    <dl>
+        <dt>Find me:
+            <dd><a href="mailto:mhfarrell@gmail.com">mhfarrell@gmail.com</a>
+            <dd><a target="_self" href="http://scholar.google.com/citations?user=VyPhl7oAAAAJ&hl=en">Google Scholar</a>
+            <dd><a target="_self" href="https://www.semanticscholar.org/author/29745675">Semantic Scholar</a>
+<!--             <dd><a target="_self" href="https://www.linkedin.com/in/maxhfarrell">LinkedIn</a>  -->
+    </dl>
+
+
+  </div>
+  
+</div>
+  
+ 
+
+<br>
+<br>
+
+
+
+
+
+
+<h2>Software</h2><hr>
+
+<ul>
+
+
+  <li class="forPapers">
+    <a target="_new" href="https://nppackages.github.io/binsreg/"><code>binsreg</code></a> for R, Stata, & Python: Binscatter regressions <font color=#696969>|</font> <a target="_new" href="https://nppackages.github.io/binsreg/">Website</a> <font color=#696969>|</font> <a target="_new" href="https://cran.r-project.org/package=binsreg">CRAN</a><!-- <font color=#696969>|</font> <a target="_self" href="https://nppackages.github.io/references/Cattaneo-Crump-Farrell-Feng_2021_Stata.pdf?attredirects=0">Software Article</a>--> <font color=#696969>|</font> Implements papers <a href="#paper11">11</a> &  <a href="#paper13">13</a>
+  </li>
+  
+ 
+  <li class="forPapers">
+    <a target="_new" href="https://rdpackages.github.io/rdrobust/"><code>rdrobust</code></a> for R, Stata, & Python: Inference in regression discontinuity designs <font color=#696969>|</font> <a target="_new" href="https://rdpackages.github.io/rdrobust/">Website</a> <font color=#696969>|</font> <a target="_new" href="https://cran.r-project.org/package=rdrobust">CRAN</a><!-- <font color=#696969>|</font> <a target="_self" href="https://rdpackages.github.io/references/Calonico-Cattaneo-Farrell-Titiunik_2017_Stata.pdf">Software Article</a>--> <font color=#696969>|</font> Implements papers <a href="#paper5">5</a> & <a href="#paper7">7</a>
+  </li>
+  
+ 
+  <li class="forPapers">
+    <a target="_new" href="https://nppackages.github.io/lspartition/"><code>lspartition</code></a> for R: Partitioning-based least squares regression <font color=#696969>|</font> <a target="_new" href="https://nppackages.github.io/lspartition/">Website</a> <font color=#696969>|</font> <a target="_new" href="https://cran.r-project.org/package=lspartition">CRAN</a><!-- <font color=#696969>|</font> <a target="_self" href="https://nppackages.github.io/references/Cattaneo-Farrell-Feng_2020_R.pdf">Software Article</a>--> <font color=#696969>|</font> Implements papers <a href="#paper2">2</a> & <a href="#paper8">8</a>
+  </li>
+
+  
+  <li class="forPapers">
+    <a target="_new" href="https://nppackages.github.io/nprobust/"><code>nprobust</code></a> for R & Stata: Kernel density and local polynomial regression <font color=#696969>|</font> <a target="_new" href="https://nppackages.github.io/nprobust/">Website</a> <font color=#696969>|</font> <a target="_new" href="https://cran.r-project.org/package=nprobust">CRAN</a><!-- <font color=#696969>|</font> <a target="_self" href="https://nppackages.github.io/references/Calonico-Cattaneo-Farrell_2019_JSS.pdf">Software Article</a>--> <font color=#696969>|</font> Implements papers <a href="#paper4">4</a> & <a href="#paper10">10</a>
+  </li>
+
+
+  
+</ul>
+
+
+
+
+
+<h2>Working Papers</h2><hr>
+
+<ol>
+
+  <li value="15" id="paper15" class="forPapers">
+    Covariate-Adjusted Regression Discontinuity Designs, with <a target="_self" href="http://sites.google.com/site/scalonico/">Sebastian Calonico</a>, <a target="_self" href="https://cattaneo.princeton.edu/">Matias Cattaneo</a>, <a target="_self" href="https://filippopalomba.github.io/">Filippo Palomba</a>, and <a target="_self" href="https://scholar.princeton.edu/titiunik"> Rocio Titiunik</a>
+    <ul class="forPapers">
+      <li>
+        arXiv    <font color=#696969>|</font>     Replication    <font color=#696969>|</font>     Software
+      </li>
+    </ul>
+  </li>
+
+
+  <li value="14" id="paper14" class="forPapers">
+    Structural Deep Learning, with <a target="_self" href="https://tyliang.github.io/"> Tengyuan Liang</a> and <a target="_self" href="http://sanjogmisra.com/">Sanjog Misra</a>
+    <ul class="forPapers">
+      <li>
+        New draft coming soon    <font color=#696969>|</font>     
+        2021 version: <a target="_self" href="https://arxiv.org/abs/2010.14694">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="https://www.cemmap.ac.uk/publication/deep-learning-for-individual-heterogeneity-an-automatic-inference-framework/">cemmap</a>
+      </li>
+    </ul>
+  </li>
+  
+  <li value="13" id="paper13" class="forPapers">
+    Nonlinear Binscatter Methods, with <a target="_self" href="https://cattaneo.princeton.edu/">Matias Cattaneo</a>, <a target="_self" href="http://nyfedeconomists.org/crump/">Richard Crump</a>, and <a target="_self" href="http://sites.google.com/site/yingjieum/">Yingjie Feng</a>
+    <ul class="forPapers">
+      <li>
+        July 2024    <font color=#696969>|</font>          <a target="_self" href="https://arxiv.org/abs/2407.15276">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="https://nppackages.github.io/replication/">Replication</a>    <font color=#696969>|</font>     <a target="_new" href="https://nppackages.github.io/binsreg">Software</a>
+      </li>
+    </ul>
+  </li>
+
+
+</ol>
+
+
+
+
+
+<h2>Publications</h2><hr>
+
+<ol> 
+
+  <li value="12" id="paper12" class="forPapers">
+    Higher-order Refinements of Small Bandwidth Asymptotics for Density-Weighted Average Derivative Estimators, with <a target="_self" href="https://cattaneo.princeton.edu/">Matias Cattaneo</a>, <a target="_self" href="https://sites.google.com/berkeley.edu/michael-jansson/"> Michael Jansson</a>, and <a target="_self" href="https://anson.ucdavis.edu/~rmasini/index.html">Ricardo Masini</a>
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="https://arxiv.org/abs/2301.00277">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="research/Cattaneo-Farrell-Jansson-Masini2024_JoE.pdf">Published PDF</a>        
+      </li>
+      <li>
+            <em>Journal of Econometrics,</em> forthcoming
+      </li>
+    </ul>
+  </li>
+
+  <li value="11" id="paper11" class="forPapers">
+    On Binscatter, with <a target="_self" href="https://cattaneo.princeton.edu/"> Matias Cattaneo</a>, <a target="_self" href="http://nyfedeconomists.org/crump/"> Richard Crump</a>, and <a target="_self" href="http://sites.google.com/site/yingjieum/">Yingjie Feng</a>
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="https://arxiv.org/abs/1902.09608">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="research/Cattaneo-Crump-Farrell-Feng2024_AER.pdf">Published PDF</a>        <font color=#696969>|</font>     <a target="_self" href="https://nppackages.github.io/replication/">Replication</a>    <font color=#696969>|</font>     <a target="_new" href="https://nppackages.github.io/binsreg">Software</a>
+      </li>
+      <li>
+        <em>American Economic Review</em>, 2024
+      </li>
+    </ul>
+  </li>
+
+  <li value="10" id="paper10" class="forPapers">
+    Coverage Error Optimal Confidence Intervals for Local Polynomial Regression, with <a target="_self" href="http://sites.google.com/site/scalonico/">Sebastian Calonico</a> and <a target="_self" href="https://cattaneo.princeton.edu/">Matias Cattaneo</a>
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="https://arxiv.org/abs/1808.01398">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="research/Calonico-Cattaneo-Farrell2022_Bern.pdf">Published PDF</a>    <font color=#696969>|</font>     <a target="_self" href="https://nppackages.github.io/replication">Replication</a>    <font color=#696969>|</font>     <a target="_new" href="https://nppackages.github.io/nprobust">Software</a>
+      </li>
+      <li>
+        <em>Bernoulli</em>, 2022
+      </li>
+    </ul>
+  </li>
+
+
+  <li value="9" id="paper9" class="forPapers">
+    Deep Neural Networks for Estimation and Inference, with <a target="_self" href="https://tyliang.github.io/"> Tengyuan Liang</a> and <a target="_self" href="http://sanjogmisra.com/">Sanjog Misra</a>
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="https://arxiv.org/abs/1809.09953">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="research/Farrell-Liang-Misra2021_Ecma.pdf">Published PDF</a>    <font color=#696969>|</font>     <a target="_self" href="https://www.econometricsociety.org/publications/econometrica/2021/01/01/deep-neural-networks-estimation-and-inference">Replication</a>
+      </li>
+      <li>
+        <em>Econometrica</em>, 2021
+      </li>
+    </ul>
+  </li>
+
+
+  <li value="8" id="paper8" class="forPapers">
+    Large Sample Properties of Partitioning-Based Series Estimators, with <a target="_self" href="https://cattaneo.princeton.edu/">Matias Cattaneo</a> and <a target="_self" href="http://sites.google.com/site/yingjieum/">Yingjie Feng</a>
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="http://arxiv.org/abs/1804.04916">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="research/Cattaneo-Farrell-Feng2020_AoS.pdf">Published PDF</a>    <font color=#696969>|</font>     <a target="_self" href="https://nppackages.github.io/replication">Replication</a>    <font color=#696969>|</font>     <a target="_new" href="https://nppackages.github.io/lspartition">Software</a>
+      </li>
+      <li>
+        <em>Annals of Statistics</em>, 2020
+      </li>
+    </ul>
+  </li> 
+   
+  
+
+  <li value="7" id="paper7" class="forPapers">
+    Optimal Bandwidth Choice for Robust Bias Corrected Inference in Regression Discontinuity Designs, with <a target="_self" href="http://sites.google.com/site/scalonico/">Sebastian Calonico</a> and <a target="_self" href="https://cattaneo.princeton.edu/">Matias Cattaneo</a>
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="https://arxiv.org/abs/1809.00236">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="research/Calonico-Cattaneo-Farrell2020_ECTJ.pdf">Published PDF</a>    <font color=#696969>|</font>     <a target="_self" href="https://rdpackages.github.io/replication">Replication</a>    <font color=#696969>|</font>     <a target="_new" href="https://rdpackages.github.io/rdrobust">Software</a>
+      </li>
+      <li>
+        <em>Econometrics Journal</em>, 2020
+      </li>
+    </ul>
+  </li> 
+  
+
+  <li value="6" id="paper6" class="forPapers">
+    Characteristic-Sorted Portfolios: Estimation and Inference, with <a target="_self" href="https://cattaneo.princeton.edu/"> Matias Cattaneo</a>, <a target="_self" href="http://nyfedeconomists.org/crump/"> Richard Crump</a>, and Ernst Schaumburg<!--<a target="_self" href="https://www.linkedin.com/in/ernst-schaumburg-bb5731a5">Ernst Schaumburg</a>-->
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="https://arxiv.org/abs/1809.03584">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="research/Cattaneo-Crump-Farrell-Schaumburg2020_REStat.pdf">Published PDF</a>    <font color=#696969>|</font>     <a target="_self" href="https://github.com/mdcattaneo/replication-CCFS_2020_RESTAT">Replication</a>
+      </li>
+      <li>
+        <em>Review of Economics and Statistics</em>, 2020
+      </li>
+    </ul>
+  </li>
+  
+  
+  
+  <li value="5" id="paper5" class="forPapers">
+    Regression Discontinuity Designs Using Covariates, with <a target="_self" href="http://sites.google.com/site/scalonico/">Sebastian Calonico</a>, <a target="_self" href="https://cattaneo.princeton.edu/"> Matias Cattaneo</a>, and <a target="_self" href="https://scholar.princeton.edu/titiunik"> Rocio Titiunik</a>
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="https://arxiv.org/abs/1809.03904">arXiv</a>   <font color=#696969>|</font>     <a target="_self" href="research/Calonico-Cattaneo-Farrell-Titiunik2019_REStat.pdf">Published PDF</a>   <font color=#696969>|</font> <a target="_self" href="research/Calonico-Cattaneo-Farrell-Titiunik2019_RESTAT--Supplement.pdf">Supplement PDF</a>     <font color=#696969>|</font> <a target="_self" href="https://rdpackages.github.io/replication/">Replication</a>   <font color=#696969>|</font>     <a target="_new" href="https://rdpackages.github.io/rdrobust">Software</a>
+      </li>
+      <li>
+        <em>Review of Economics and Statistics</em>, 2019
+      </li>
+    </ul>
+  </li>
+  
+  
+
+  <li value="4" id="paper4" class="forPapers">
+    On the Effect of Bias Estimation on Coverage Accuracy in Nonparametric Inference, with <a target="_self" href="http://sites.google.com/site/scalonico/">Sebastian Calonico</a> and <a target="_self" href="https://cattaneo.princeton.edu/"> Matias Cattaneo</a>
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="http://arxiv.org/abs/1508.02973">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="research/Calonico-Cattaneo-Farrell2018_JASA.pdf">Published PDF</a>    <font color=#696969>|</font>     <a target="_self" href="https://nppackages.github.io/replication">Replication</a>    <font color=#696969>|</font>     <a target="_new" href="https://nppackages.github.io/nprobust">Software</a>
+      </li>
+      <li>
+        <em>Journal of the American Statistical Association</em>, 2018
+      </li>
+    </ul>
+  </li>
+  
+  
+
+  <li value="3" id="paper3" class="forPapers">
+   Robust Inference on Average Treatment Effects with Possibly More Covariates than Observations
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="http://arxiv.org/abs/1309.4686">arXiv</a>    <font color=#696969>|</font>     <a target="_self" href="research/Farrell2015_JoE.pdf">Published PDF</a> <font color=#696969>|</font> <a target="_self" href="research/Farrell2015_JoE--Replication.zip">Replication</a>    <font color=#696969>|</font>     <a target="_self" href="research/Farrell2015_JoE--Corrigendum.pdf">Corrigendum to JoE version</a>
+      </li>
+      <li>
+        <em>Journal of Econometrics</em>, 2015
+      </li>
+    </ul>
+  </li>
+
+
+  <li value="2" id="paper2" class="forPapers">
+   Optimal Convergence Rates, Bahadur Representation, and Asymptotic Normality of Partitioning Estimators, with <a target="_self" href="https://cattaneo.princeton.edu/"> Matias Cattaneo</a>
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="research/Cattaneo-Farrell2013_JoE.pdf">Published PDF</a>     <font color=#696969>|</font>     <a target="_self" href="research/Cattaneo-Farrell2013_JoE--Supplement.pdf">Supplement PDF</a>    <font color=#696969>|</font>     <a target="_new" href="https://nppackages.github.io/lspartition">Software</a>
+      </li>
+      <li>
+        <em>Journal of Econometrics</em>, 2013
+      </li>
+    </ul>
+  </li>
+
+
+  <li value="1" id="paper1" class="forPapers">
+   Efficient Estimation of the Dose Response Function under Ignorability using Subclassification on the Covariates, with <a target="_self" href="https://cattaneo.princeton.edu/"> Matias Cattaneo</a>
+    <ul class="forPapers">
+      <li>
+        <a target="_self" href="research/Cattaneo-Farrell2011_AIE_published.pdf">Published PDF</a>     <font color=#696969>|</font>     <a target="_self" href="research/Cattaneo-Farrell2011_AIE.pdf">PDF</a>
+      </li>
+      <li>
+        <em>Advances in Econometrics</em>, 2011
+      </li>
+    </ul>
+  </li>
+
+
+
+</ol>
+
+
+
+
+
+
+<!--
+
+
+
+<h2>Other</h2><hr>
+<ul>
+
+  <li class="forPapers">
+    Interactions Conference 2017: Bringing Together Econometrics and Applied Microeconomics <font color=#696969>|</font> <a target="_new" href="https://sites.google.com/site/interactionsconference/Interactions_Conference_Program.pdf?attredirects=0">Program</a> <font color=#696969>|</font> <a target="_self" href="http://sites.google.com/site/interactionsconference/">Website</a>
+  </li>
+
+</ul>
+
+-->
+
+
+<br>
+
+
+<hr>
+
+<center><small>Last updated September 2024</small></center>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
